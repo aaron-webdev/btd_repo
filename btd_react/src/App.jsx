@@ -1,6 +1,6 @@
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./../node_modules/bootstrap/dist/js/bootstrap.min.js";
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 import Homepage from "./pages/Homepage.jsx";
@@ -15,15 +15,11 @@ export default function App() {
   
   return (
     <>
-    <Homepage/>
-    </>
-  )
-}
-
-/*
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Homepage/>}/>
       </Routes>
-    </HashRouter>
-*/
+    </BrowserRouter>    
+    </>
+  )
+}
