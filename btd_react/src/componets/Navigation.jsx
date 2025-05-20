@@ -13,7 +13,7 @@ export default function Navigation()
 
     return(
         <>
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="md" className="bg-body-tertiary">
         <Container>
             <Navbar.Brand href="/"><img src={Logo} style={{height: '75px', width: '75px'}}/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
