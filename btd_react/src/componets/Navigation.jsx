@@ -36,6 +36,7 @@ export default function Navigation()
                     <NavDropdown.Item href='#'>Frequently Asked Questions</NavDropdown.Item>
                     <NavDropdown.Item href='#'>Testimonials</NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link href="#">Contact Us</Nav.Link>
                 <Nav.Link href="#">Shop All Products</Nav.Link>
                 <Nav.Link href="#">Wholesale</Nav.Link>
             </Nav>
