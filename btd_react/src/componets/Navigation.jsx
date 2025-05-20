@@ -15,13 +15,22 @@ export default function Navigation()
         <>
         <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-            <Navbar.Brand href="#"><img src={Logo} style={{height: '75px', width: '75px'}}/></Navbar.Brand>
+            <Navbar.Brand href="/"><img src={Logo} style={{height: '75px', width: '75px'}}/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link href="#">Home</Nav.Link>
-                <Nav.Link href="#">Link</Nav.Link>
-                
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="#">Find Us</Nav.Link>
+                <NavDropdown title='Menus' id='basic-nav-dropdown'>
+                    <NavDropdown.Item href='#'>In Store Menu</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Seasonal Preorder</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Custom Order Forms</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Wholesale/Catering Menus</NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link href="#">Classes</Nav.Link>
+                <Nav.Link href="#">About Us</Nav.Link>
+                <Nav.Link href="#">Shop All Products</Nav.Link>
+                <Nav.Link href="#">Wholesale</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

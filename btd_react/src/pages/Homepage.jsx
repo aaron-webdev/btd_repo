@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Navigation/>
-      <p>Bake That Dough Website</p>
+      <p>Bake That Dough Websited</p>
     </>
   )
 }
