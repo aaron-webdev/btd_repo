@@ -19,6 +19,9 @@ export default function Navigation()
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
+                <Nav.Link>
+                    
+                </Nav.Link>
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="#">Find Us</Nav.Link>
                 <NavDropdown title='Menus' id='basic-nav-dropdown'>
@@ -28,7 +31,11 @@ export default function Navigation()
                     <NavDropdown.Item href='#'>Wholesale/Catering Menus</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#">Classes</Nav.Link>
-                <Nav.Link href="#">About Us</Nav.Link>
+                <NavDropdown title='About Us'>
+                    <NavDropdown.Item href='#'>Our Story</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Frequently Asked Questions</NavDropdown.Item>
+                    <NavDropdown.Item href='#'>Testimonials</NavDropdown.Item>
+                </NavDropdown>
                 <Nav.Link href="#">Shop All Products</Nav.Link>
                 <Nav.Link href="#">Wholesale</Nav.Link>
             </Nav>
@@ -40,16 +47,10 @@ export default function Navigation()
 }
 
 /*
-<NavDropdown title="Dropdown" id="basic-nav-dropdown">
-<NavDropdown.Item href="#">Action</NavDropdown.Item>
-<NavDropdown.Item href="#">
-    Another action
-</NavDropdown.Item>
-<NavDropdown.Item href="#a">Something</NavDropdown.Item>
-<NavDropdown.Divider />
-<NavDropdown.Item href="#">
-    Separated link
-</NavDropdown.Item>
-</NavDropdown>
-
+import {SocialIcon} from 'react-social-icons'
+<SocialIcon
+    network='instagram'
+    url='https://www.instagram.com/bakethatdough/'
+    style={{height:25,width:25}}
+/>
 */
