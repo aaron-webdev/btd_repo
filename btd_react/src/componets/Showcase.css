@@ -17,10 +17,16 @@ hsl(70, 11.50%, 79.60%)   text color
   object-fit: cover;
   width: 100%;
   height: 100%;
-  max-height: 60vh;
+  max-height: 50vh;
 }
 #showcase1{
   object-position: bottom;
+}
+#showcase2{
+  object-position: center -70px;
+}
+#showcase3{
+  object-position: center -70px;
 }
 .showcase-captions{
   position: absolute;
@@ -34,6 +40,6 @@ hsl(70, 11.50%, 79.60%)   text color
 @media (max-width: 768px) {
   .carousel,
   .carousel-image {
-    max-height: 45vh;
+    max-height: 30vh;
   }
 }

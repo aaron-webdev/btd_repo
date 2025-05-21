@@ -17,6 +17,7 @@ export default function Showcase()
         <>
             <Container>
                 <Carousel>
+                    
                     <Carousel.Item>
                         <Image src={Cookies} id='showcase1' className='showcase-img'/>
                         <Carousel.Caption className='showcase-captions mx-4'>
@@ -37,6 +38,7 @@ export default function Showcase()
                             <h5>"My clients love getting these gift boxes as a joining gift."</h5>
                         </Carousel.Caption>
                     </Carousel.Item>
+                    
                 </Carousel>
             </Container>
         </>
