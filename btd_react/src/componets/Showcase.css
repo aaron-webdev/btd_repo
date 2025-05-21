@@ -23,10 +23,10 @@ hsl(70, 11.50%, 79.60%)   text color
   object-position: bottom;
 }
 #showcase2{
-  object-position: center -70px;
+  object-position: center;
 }
 #showcase3{
-  object-position: center -70px;
+  object-position: center;
 }
 .showcase-captions{
   position: absolute;

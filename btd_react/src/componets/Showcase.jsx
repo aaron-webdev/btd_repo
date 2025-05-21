@@ -17,14 +17,14 @@ export default function Showcase()
         <>
             <Container>
                 <Carousel>
-                    
+                   
                     <Carousel.Item>
                         <Image src={Cookies} id='showcase1' className='showcase-img'/>
                         <Carousel.Caption className='showcase-captions mx-4'>
                             <h5>"I love picking up cookies that are still warm out of the oven, best spot in HV!"</h5>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    
+                   
                     <Carousel.Item>
                         <Image src={GlamBiscuit} id='showcase2' className='showcase-img'/>
                         <Carousel.Caption className='showcase-captions mx-4'>
