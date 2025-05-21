@@ -1,0 +1,18 @@
+.carousel {
+  width: 100%;
+  max-height: 80vh; /* Adjust as needed */
+}
+
+.carousel-image {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  object-position: 100% 100%; /* Bottom-right focus */
+}
+
+@media (max-width: 768px) {
+  .carousel,
+  .carousel-image {
+    max-height: 100vh;
+  }
+}

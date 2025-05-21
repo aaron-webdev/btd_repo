@@ -13,8 +13,7 @@ export default function NavigationMenu()
 
     return(
         <>
-        <Navbar expand="md" className="bg-body-tertiary">
-        <Container>
+        <Navbar expand="md" className="bg-body-tertiary px-2">
             <Navbar.Brand href="/"><img src={Logo} style={{height: '75px', width: '75px'}}/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -41,7 +40,6 @@ export default function NavigationMenu()
                 <Nav.Link href="#">Wholesale</Nav.Link>
             </Nav>
             </Navbar.Collapse>
-        </Container>
         </Navbar>
         </>
     )
