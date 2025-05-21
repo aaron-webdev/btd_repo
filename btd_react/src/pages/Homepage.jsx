@@ -1,9 +1,5 @@
-import Container from 'react-bootstrap/esm/Container';
-import Navigation from '../componets/Navigation';
-import Carousel from 'react-bootstrap/Carousel';
-import Card from 'react-bootstrap/Card';
-
-import Cookies1 from './../assets/cookies_in_oven.jpg'
+import NavigationMenu from "../componets/NavigationMenu"
+import Showcase from "../componets/Showcase"
 
 
 
@@ -17,21 +13,23 @@ export default function Home() {
   
   return (
     <>
-      <Navigation/>
+      <NavigationMenu/>
+      <Showcase/>
+    </>
+  )
+}
+
+/*
+
 
       <Container>
         <Carousel>
           <Card>
             <Card.Img src={Cookies1}/>
           </Card>
-          
         </Carousel>
       </Container>
-    </>
-  )
-}
 
-/*
         <Carousel>
           <Carousel.Item>
             <ExampleCarouselImage src={cookies1} />

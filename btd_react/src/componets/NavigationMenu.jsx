@@ -6,7 +6,7 @@ import Logo from "./../assets/BTDlogo.png"
 
 
 
-export default function Navigation()
+export default function NavigationMenu()
 {
 
 
