@@ -21,7 +21,7 @@ export default function NavigationMenu()
                     
                 </Nav.Link>
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="#">Find Us</Nav.Link>
+                <Nav.Link href="/findus">Find Us</Nav.Link>
                 <NavDropdown title='Menus' id='basic-nav-dropdown'>
                     <NavDropdown.Item href='#'>In Store Menu</NavDropdown.Item>
                     <NavDropdown.Item href='#'>Seasonal Preorder</NavDropdown.Item>
