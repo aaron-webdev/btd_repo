@@ -20,14 +20,14 @@ export default function Showcase()
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item>
+                <Carousel.Item interval={8000}>
                     <img className='carousel-image showcase_image'id='slide2' src={GiftBox}/>
                     <Carousel.Caption style={{position:'absolute', top:'20%',bottom:'auto',textShadow: "2px 2px 4px rgba(0, 0, 0, 1)"}}>
                         <h3>"Great gift for Mother's Day!  These cookies absolutely made my day."</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item>
+                <Carousel.Item interval={8000}>
                     <img className='carousel-image showcase_image'id='slide3' src={BiscuitGlam}/>
                     <Carousel.Caption style={{position:'absolute', top:'20%',bottom:'auto',textShadow: "2px 2px 4px rgba(0, 0, 0, 1)"}}>
                         <h3>"The take and bake is perfect for surprising my family with delicious goodies."</h3>
