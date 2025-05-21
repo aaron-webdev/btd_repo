@@ -15,6 +15,9 @@
 #slide2{
   object-position: center;
 }
+#slide3{
+  object-position: center;
+}
 
 @media (max-width: 768px) {
   .carousel,
