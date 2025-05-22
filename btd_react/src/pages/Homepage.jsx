@@ -3,7 +3,7 @@ import MenuLinks from "../componets/MenuLinks"
 import MiniBio from "../componets/MiniBio"
 import NavigationMenu from "../componets/NavigationMenu"
 import SeasonalHours from "../componets/SeasonalHours"
-import SeasonalPreorder from "../componets/SeasonalPreorder"
+import SeasonalPreorder from "./SeasonalPreorder.jsx"
 import Showcase from "../componets/Showcase"
 import StoreFinder from "../componets/StoreFinder"
 
