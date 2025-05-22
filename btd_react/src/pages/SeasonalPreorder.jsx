@@ -15,7 +15,7 @@ export default function SeasonalPreorder()
     return(
         <div>
             <Container id='EasterPreorder'>
-                <Card stlye={{width:'15rem'}}>
+                <Card stlye={{width:'10rem'}}>
                     <Card.Img src={HotCross}/>
                     <Card.Body>
                         <Card.Title>Hot Cross Buns</Card.Title>
