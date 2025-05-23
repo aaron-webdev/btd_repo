@@ -20,7 +20,9 @@ export default function Home() {
   return (
     <>
       <NavigationMenu/>
+      <br/>
       <Showcase/>
+      <br/>
       <SeasonalPreorders/>
       <SeasonalHours/>
       <StoreFinder/>

@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from "./pages/Homepage.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import FindUs from "./pages/FindUs.jsx";
-
+import EasterPreorder from "./pages/EasterPreorder.jsx";
 
 
 
@@ -22,6 +22,7 @@ export default function App() {
         <Route path='/' element={<Homepage/>}/>
         <Route path='/about' element={<AboutUs/>}/>
         <Route path='/findus' element={<FindUs/>}/>
+        <Route path='/easter_preorder' element={<EasterPreorder/>}/>
       </Routes>
     </BrowserRouter>    
     </div>

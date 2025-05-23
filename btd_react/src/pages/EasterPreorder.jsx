@@ -19,7 +19,7 @@ export default function EasterPreorder()
             <Container id='EasterPreorder'>
                 <Row className='m-2'>
 
-                    <Col>
+                    <Col style={{w50}}>
                         <Card>
                             <Card.Img src={HotCross}/>
                             <Card.Body className='text-center'>
