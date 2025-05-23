@@ -3,7 +3,7 @@ import MenuLinks from "../componets/MenuLinks"
 import MiniBio from "../componets/MiniBio"
 import NavigationMenu from "../componets/NavigationMenu"
 import SeasonalHours from "../componets/SeasonalHours"
-import SeasonalPreorder from "./SeasonalPreorder.jsx"
+import SeasonalPreorders from "../componets/SeasonalPreorders"
 import Showcase from "../componets/Showcase"
 import StoreFinder from "../componets/StoreFinder"
 
@@ -21,7 +21,7 @@ export default function Home() {
     <>
       <NavigationMenu/>
       <Showcase/>
-      <SeasonalPreorder/>
+      <SeasonalPreorders/>
       <SeasonalHours/>
       <StoreFinder/>
       <MiniBio/>

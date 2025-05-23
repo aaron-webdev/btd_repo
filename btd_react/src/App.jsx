@@ -16,7 +16,7 @@ export default function App() {
 
   
   return (
-    <>
+    <div className='align-items-center justify-content-center text-center'>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Homepage/>}/>
@@ -24,6 +24,6 @@ export default function App() {
         <Route path='/findus' element={<FindUs/>}/>
       </Routes>
     </BrowserRouter>    
-    </>
+    </div>
   )
 }

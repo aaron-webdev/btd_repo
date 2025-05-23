@@ -9,7 +9,7 @@ import CarrotCake from './../assets/carrot_cake.png';
 import PullApart from './../assets/pull_apart_glam.png';
 
 
-export default function SeasonalPreorder()
+export default function EasterPreorder()
 {
 
 
