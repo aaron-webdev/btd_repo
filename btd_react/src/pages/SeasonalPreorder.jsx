@@ -17,46 +17,56 @@ export default function SeasonalPreorder()
     return(
         <div>
             <Container id='EasterPreorder'>
-                <Row>
+                <Row className='m-2'>
+
                     <Col>
                         <Card>
                             <Card.Img src={HotCross}/>
-                            <Card.Body>
+                            <Card.Body className='text-center'>
                                 <Card.Title>Hot Cross Buns</Card.Title>
                                 <Card.Subtitle>$12.00</Card.Subtitle>
+                                <Button variant='success'>Add or Cart</Button>
                             </Card.Body>
                         </Card>
                     </Col>
+
                     <Col>
-                        <Card >
+                        <Card>
                             <Card.Img src={CinnRolls}/>
-                            <Card.Body>
+                            <Card.Body className='text-center'>
                                 <Card.Title>Cinnamon Rolls</Card.Title>
                                 <Card.Subtitle>$16.00</Card.Subtitle>
+                                <Button variant='success'>Add or Cart</Button>
                             </Card.Body>
                         </Card>
                     </Col>
+
                 </Row>
 
                 <Row>
+
                     <Col>
                         <Card>
                             <Card.Img src={CarrotCake}/>
-                            <Card.Body>
+                            <Card.Body className='text-center'>
                                 <Card.Title>Carrot Cake</Card.Title>
                                 <Card.Subtitle>$16.00</Card.Subtitle>
+                                <Button variant='success'>Add or Cart</Button>
                             </Card.Body>
                         </Card>
                     </Col>
+
                     <Col>
                         <Card>
                             <Card.Img src={PullApart}/>
-                            <Card.Body>
+                            <Card.Body className='text-center'>
                                 <Card.Title>Pull Apart Dinner Rolls</Card.Title>
                                 <Card.Subtitle>$10.00</Card.Subtitle>
+                                <Button variant='success'>Add or Cart</Button>
                             </Card.Body>
                         </Card>
                     </Col>
+
                 </Row>
             </Container>
         </div>
