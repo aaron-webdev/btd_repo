@@ -7,7 +7,7 @@ import HotCross from './../assets/hot_cross_buns.gif';
 import CinnRolls from './../assets/cinnamon_rolls.gif';
 import CarrotCake from './../assets/carrot_cake.png';
 import PullApart from './../assets/pull_apart_glam.png';
-
+import NavigationMenu from './../componets/NavigationMenu.jsx';
 
 export default function EasterPreorder()
 {
@@ -16,10 +16,12 @@ export default function EasterPreorder()
 
     return(
         <div>
+            <NavigationMenu/>
+            <h1>Easter Preorder Menu</h1>
             <Container id='EasterPreorder'>
                 <Row className='m-2'>
 
-                    <Col style={{w50}}>
+                    <Col>
                         <Card>
                             <Card.Img src={HotCross}/>
                             <Card.Body className='text-center'>
