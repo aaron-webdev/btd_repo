@@ -7,6 +7,7 @@ import Homepage from "./pages/Homepage.jsx";
 import AboutUs from "./pages/AboutUs.jsx";
 import FindUs from "./pages/FindUs.jsx";
 import EasterPreorder from "./pages/EasterPreorder.jsx";
+import './App.css';
 
 
 
