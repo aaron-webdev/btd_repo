@@ -61,8 +61,8 @@ export default function MarketInfo()
             </Card>
 
             <Card>
-                <Card.Title></Card.Title>
-                <Card.Subtitle>Tellico Village Farmer's Market</Card.Subtitle>
+                <Card.Title>Tellico Village Farmer's Marke</Card.Title>
+                <Card.Subtitle>t</Card.Subtitle>
                 <Card.Body>
                     <Card.Text>
                         9am-12pm<br/>
