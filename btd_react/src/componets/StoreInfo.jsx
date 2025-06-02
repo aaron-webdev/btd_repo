@@ -1,10 +1,9 @@
-import Container from 'react-bootstrap/Container';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-
+import Container from 'react-bootstrap/Container';
 import StoreMap from './../assets/map_cap.png'
 
 
@@ -20,8 +19,8 @@ export default function StoreInfo()
         <>
 
 
-            <Container className='m-5 p-auto'id='storeAddress'>
-                <Card>
+            <Container className='d-flex justify-content-center align-items-center'>
+                <Card className='w-50'>
                     <Card.Img variant='top' src={StoreMap}/>
                     <Card.Title>Our Store</Card.Title>
                     <Card.Body>
